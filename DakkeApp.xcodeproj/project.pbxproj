@@ -11,6 +11,8 @@
 		9BD5FBF12BA2E37B00F09E09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5FBF02BA2E37B00F09E09 /* ContentView.swift */; };
 		9BD5FBF32BA2E37C00F09E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD5FBF22BA2E37C00F09E09 /* Assets.xcassets */; };
 		9BD5FBF62BA2E37C00F09E09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD5FBF52BA2E37C00F09E09 /* Preview Assets.xcassets */; };
+		9BD5FC002BA2E4D400F09E09 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5FBFF2BA2E4D400F09E09 /* Tab.swift */; };
+		9BD5FC042BA2EA1500F09E09 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5FC032BA2EA1500F09E09 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9BD5FBF02BA2E37B00F09E09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9BD5FBF22BA2E37C00F09E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BD5FBF52BA2E37C00F09E09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9BD5FBFF2BA2E4D400F09E09 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		9BD5FC032BA2EA1500F09E09 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		9BD5FBED2BA2E37B00F09E09 /* DakkeApp */ = {
 			isa = PBXGroup;
 			children = (
+				9BD5FBFD2BA2E38F00F09E09 /* View */,
+				9BD5FBFC2BA2E38900F09E09 /* Model */,
 				9BD5FBEE2BA2E37B00F09E09 /* DakkeAppApp.swift */,
 				9BD5FBF02BA2E37B00F09E09 /* ContentView.swift */,
 				9BD5FBF22BA2E37C00F09E09 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				9BD5FBF52BA2E37C00F09E09 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9BD5FBFC2BA2E38900F09E09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BD5FBFF2BA2E4D400F09E09 /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BD5FBFD2BA2E38F00F09E09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BD5FC032BA2EA1500F09E09 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD5FC002BA2E4D400F09E09 /* Tab.swift in Sources */,
 				9BD5FBF12BA2E37B00F09E09 /* ContentView.swift in Sources */,
+				9BD5FC042BA2EA1500F09E09 /* Home.swift in Sources */,
 				9BD5FBEF2BA2E37B00F09E09 /* DakkeAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
