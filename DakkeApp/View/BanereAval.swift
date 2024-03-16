@@ -33,7 +33,6 @@ struct BanereAval: View {
                 }
             }
             .frame(height: 200)
-            Spacer()
         }
 
     }

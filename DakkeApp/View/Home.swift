@@ -24,8 +24,11 @@ struct Home: View {
                 NavigationStack{
 // بنر اول
                     BanereAval()
-                    .navigationTitle(Tab.home.title)
-                    .background(Color.gray.opacity(0.2))
+                        .navigationTitle(Tab.home.title)
+                        .background(Color.gray.opacity(0.2))
+                    
+                    CardView()
+                    Spacer()
                 }
                 .setUpTab(.home)
                 

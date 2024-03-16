@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9B426E732BA52D63001B0924 /* CoverFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B426E722BA52D63001B0924 /* CoverFlowView.swift */; };
+		9B6100F82BA6109B00E2327D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6100F72BA6109B00E2327D /* Card.swift */; };
+		9B6100FA2BA6115200E2327D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6100F92BA6115200E2327D /* CardView.swift */; };
 		9B8E674F2BA589F700C91A75 /* BanereAval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E674E2BA589F700C91A75 /* BanereAval.swift */; };
 		9B8E67512BA58F7800C91A75 /* DasteBandi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E67502BA58F7800C91A75 /* DasteBandi.swift */; };
 		9B8E67532BA58FA800C91A75 /* TabDaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E67522BA58FA800C91A75 /* TabDaste.swift */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		9B426E722BA52D63001B0924 /* CoverFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowView.swift; sourceTree = "<group>"; };
+		9B6100F72BA6109B00E2327D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9B6100F92BA6115200E2327D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		9B8E674E2BA589F700C91A75 /* BanereAval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanereAval.swift; sourceTree = "<group>"; };
 		9B8E67502BA58F7800C91A75 /* DasteBandi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DasteBandi.swift; sourceTree = "<group>"; };
 		9B8E67522BA58FA800C91A75 /* TabDaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabDaste.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 			children = (
 				9BD5FBFF2BA2E4D400F09E09 /* Tab.swift */,
 				9B8E67522BA58FA800C91A75 /* TabDaste.swift */,
+				9B6100F72BA6109B00E2327D /* Card.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 				9B8E674E2BA589F700C91A75 /* BanereAval.swift */,
 				9B8E67502BA58F7800C91A75 /* DasteBandi.swift */,
 				9B8E67542BA5A2D400C91A75 /* View_Extensions.swift */,
+				9B6100F92BA6115200E2327D /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,7 +187,9 @@
 				9BD5FC042BA2EA1500F09E09 /* Home.swift in Sources */,
 				9B8E674F2BA589F700C91A75 /* BanereAval.swift in Sources */,
 				9BD5FBEF2BA2E37B00F09E09 /* DakkeAppApp.swift in Sources */,
+				9B6100F82BA6109B00E2327D /* Card.swift in Sources */,
 				9B8E67512BA58F7800C91A75 /* DasteBandi.swift in Sources */,
+				9B6100FA2BA6115200E2327D /* CardView.swift in Sources */,
 				9B8E67552BA5A2D400C91A75 /* View_Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
