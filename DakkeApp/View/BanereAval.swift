@@ -28,6 +28,7 @@ struct BanereAval: View {
                             .frame(width: 280, height: 200)
                             .scaledToFit()
                             .clipped()
+                            .clipShape(RoundedRectangle(cornerRadius: 20))
                     }
                 }
             }

@@ -25,12 +25,14 @@ struct Home: View {
 // بنر اول
                     BanereAval()
                     .navigationTitle(Tab.home.title)
+                    .background(Color.gray.opacity(0.2))
                 }
                 .setUpTab(.home)
                 
                 NavigationStack{
                     VStack{
                         DasteBandi()
+                        .background(Color.gray.opacity(0.2))
                     }
                 }
                 .setUpTab(.category)
