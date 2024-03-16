@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9B426E732BA52D63001B0924 /* CoverFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B426E722BA52D63001B0924 /* CoverFlowView.swift */; };
+		9B8E674F2BA589F700C91A75 /* BanereAval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E674E2BA589F700C91A75 /* BanereAval.swift */; };
+		9B8E67512BA58F7800C91A75 /* DasteBandi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E67502BA58F7800C91A75 /* DasteBandi.swift */; };
+		9B8E67532BA58FA800C91A75 /* TabDaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E67522BA58FA800C91A75 /* TabDaste.swift */; };
+		9B8E67552BA5A2D400C91A75 /* View_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E67542BA5A2D400C91A75 /* View_Extensions.swift */; };
 		9BD5FBEF2BA2E37B00F09E09 /* DakkeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5FBEE2BA2E37B00F09E09 /* DakkeAppApp.swift */; };
 		9BD5FBF12BA2E37B00F09E09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5FBF02BA2E37B00F09E09 /* ContentView.swift */; };
 		9BD5FBF32BA2E37C00F09E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD5FBF22BA2E37C00F09E09 /* Assets.xcassets */; };
@@ -18,6 +22,10 @@
 
 /* Begin PBXFileReference section */
 		9B426E722BA52D63001B0924 /* CoverFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowView.swift; sourceTree = "<group>"; };
+		9B8E674E2BA589F700C91A75 /* BanereAval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanereAval.swift; sourceTree = "<group>"; };
+		9B8E67502BA58F7800C91A75 /* DasteBandi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DasteBandi.swift; sourceTree = "<group>"; };
+		9B8E67522BA58FA800C91A75 /* TabDaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabDaste.swift; sourceTree = "<group>"; };
+		9B8E67542BA5A2D400C91A75 /* View_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Extensions.swift; sourceTree = "<group>"; };
 		9BD5FBEB2BA2E37B00F09E09 /* DakkeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DakkeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD5FBEE2BA2E37B00F09E09 /* DakkeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DakkeAppApp.swift; sourceTree = "<group>"; };
 		9BD5FBF02BA2E37B00F09E09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				9BD5FBFF2BA2E4D400F09E09 /* Tab.swift */,
+				9B8E67522BA58FA800C91A75 /* TabDaste.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -88,6 +97,9 @@
 			children = (
 				9BD5FC032BA2EA1500F09E09 /* Home.swift */,
 				9B426E722BA52D63001B0924 /* CoverFlowView.swift */,
+				9B8E674E2BA589F700C91A75 /* BanereAval.swift */,
+				9B8E67502BA58F7800C91A75 /* DasteBandi.swift */,
+				9B8E67542BA5A2D400C91A75 /* View_Extensions.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,10 +175,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B426E732BA52D63001B0924 /* CoverFlowView.swift in Sources */,
+				9B8E67532BA58FA800C91A75 /* TabDaste.swift in Sources */,
 				9BD5FC002BA2E4D400F09E09 /* Tab.swift in Sources */,
 				9BD5FBF12BA2E37B00F09E09 /* ContentView.swift in Sources */,
 				9BD5FC042BA2EA1500F09E09 /* Home.swift in Sources */,
+				9B8E674F2BA589F700C91A75 /* BanereAval.swift in Sources */,
 				9BD5FBEF2BA2E37B00F09E09 /* DakkeAppApp.swift in Sources */,
+				9B8E67512BA58F7800C91A75 /* DasteBandi.swift in Sources */,
+				9B8E67552BA5A2D400C91A75 /* View_Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

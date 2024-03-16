@@ -15,50 +15,23 @@ struct Home: View {
     @State private var allTabs: [AnimatedTab] = Tab.allCases.compactMap { tab -> AnimatedTab? in
         return .init(tab: tab)
     }
-    
-// View Custom
-    @State private var items: [CoverFlowItem] = [ .init(image: Image("3")), .init(image: Image("4")), .init(image: Image("5")),.init(image: Image("6"))
-    ]
-    
-    @State private var spacing: CGFloat = 0
-    @State private var rotation: CGFloat = .zero
-// بازتاب
-    @State private var enableReflection: Bool = false
-    
+
     var body: some View {
         VStack(spacing:0){
             TabView(selection: $activeTab){
 // Your Tab views
+// خانه
                 NavigationStack{
-                    VStack{
-                        CoverFlowView(spacing: spacing, rotation: rotation, enableReflection: enableReflection ,itemWidth: 280, items: items){ item in
-                            ZStack {
-                                    item.image
-                                    .resizable()
-                                    .frame(width: 280, height: 200)
-                                    .scaledToFit()
-                                    .clipped()
-                                }
-                        }
-                        .frame(height: 200)
-                        Spacer()
-                    
-// تنظیمات
-                        VStack(alignment: .leading, spacing: 10, content: {
-                            Toggle("Toggle Reflection", isOn: $enableReflection)
-                            Slider(value: $spacing, in: -90...20)
-                            Slider(value: $rotation, in: 0...90)
-                        })
-                    }
+// بنر اول
+                    BanereAval()
                     .navigationTitle(Tab.home.title)
                 }
                 .setUpTab(.home)
                 
                 NavigationStack{
                     VStack{
-                        
+                        DasteBandi()
                     }
-                    .navigationTitle(Tab.category.title)
                 }
                 .setUpTab(.category)
                 
