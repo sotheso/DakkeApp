@@ -55,7 +55,3 @@ extension View {
         }
     }
 }
-
-#Preview{
-    DasteBandi()
-}

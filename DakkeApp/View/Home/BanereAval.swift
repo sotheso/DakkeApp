@@ -46,6 +46,6 @@ struct DetailView: View {
     let item: CoverFlowItem
     
     var body: some View {
-        Text("Detail View for ")
+        Home()
     }
 }

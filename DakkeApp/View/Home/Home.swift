@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct Home: View {
 
@@ -16,7 +17,13 @@ struct Home: View {
         return .init(tab: tab)
     }
 
+    @State private var selectedProfile: Profile?
+    @State private var pushView: Bool = false
+    // For back buttem in search page DatailView
+    @State private var hideView: (Bool, Bool) = (false, false)
+    
     var body: some View {
+        
         VStack(spacing:0){
             TabView(selection: $activeTab){
 // Your Tab views
@@ -42,7 +49,7 @@ struct Home: View {
                 
                 NavigationStack{
                     VStack{
-                        
+                        FavouriteView()
                     }
                     .navigationTitle(Tab.favourite.title)
                 }
@@ -50,11 +57,26 @@ struct Home: View {
                 
                 NavigationStack{
                     VStack{
-                        
+                        SearchView(selectedProfile: $selectedProfile, pushView: $pushView)
+                            .navigationDestination(isPresented: $pushView){
+                                DatailView(selectedProfile: $selectedProfile, pushView: $pushView, hideView: $hideView
+                                )
+                        }
                     }
-                    .navigationTitle(Tab.setting.title)
+                    .navigationTitle("Search")
                 }
-                .setUpTab(.setting)
+                .overlayPreferenceValue(MAnchorKey.self, { value in
+                    GeometryReader ( content: {geometry in
+                        if let selectedProfile, let anchor = value[selectedProfile.id], !hideView.0 {
+                            let rect = geometry[anchor]
+                            ImageView(profile: selectedProfile, size: rect.size)
+                                .offset(x: rect.minX, y: rect.minY)
+                                .animation(.snappy(duration: 0.35, extraBounce: 0),value: rect)
+                        }
+                    })
+                })
+                .setUpTab(.search)
+
             }
             CustomTabBar()
         }

@@ -6,10 +6,17 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct ContentView: View {
+    @AppStorage("log_status") private var logStatus: Bool = false
+
     var body: some View {
-        Home()
+        if logStatus{
+            Home()
+        } else {
+            Login()
+        }
     }
 }
 

@@ -12,7 +12,7 @@ enum Tab: String, CaseIterable{
     case home = "house.fill"
     case category = "rectangle.3.group.fill"
     case favourite = "star.square.on.square.fill"
-    case setting = "gearshape.fill"
+    case search = "magnifyingglass.circle.fill"
     
     var title: String{
         switch self {
@@ -22,8 +22,8 @@ enum Tab: String, CaseIterable{
             return "Category"
         case .favourite:
             return "Favourite"
-        case .setting:
-            return "Setting"
+        case .search:
+            return "Search"
         }
     }
 }
