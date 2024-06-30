@@ -17,6 +17,8 @@ struct DakkeAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            // for Post1
+                .modelContainer(for: [Photo.self])
         }
     }
 }

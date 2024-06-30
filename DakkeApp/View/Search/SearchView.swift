@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Firebase
+import FirebaseAuth
 
 struct SearchView: View {
     @State private var heroes = ["01", "02","03","04", "05", "06"]
