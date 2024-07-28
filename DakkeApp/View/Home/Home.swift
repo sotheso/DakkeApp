@@ -49,7 +49,7 @@ struct Home: View {
                 
                 NavigationStack{
                     VStack{
-                        Post1()
+//                        Post1()
                     }
                     .navigationTitle(Tab.favourite.title)
                 }

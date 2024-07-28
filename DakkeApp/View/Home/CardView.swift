@@ -84,6 +84,8 @@ struct DetailView2: View {
     let item: Card
     
     var body: some View {
-        Text("Detail View for ")
+        ProfileView()
+            .padding(.top,25)
+            .edgesIgnoringSafeArea(.top)
     }
 }

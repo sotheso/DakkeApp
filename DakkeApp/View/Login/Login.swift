@@ -8,6 +8,7 @@
 import SwiftUI
 import Firebase
 import Lottie
+import FirebaseAuth
 
 struct Login: View {
     
