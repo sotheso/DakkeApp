@@ -85,7 +85,7 @@ struct DetailView2: View {
     
     var body: some View {
         ProfileView()
-            .padding(.top,25)
+            .padding(.top,90)
             .edgesIgnoringSafeArea(.top)
     }
 }
