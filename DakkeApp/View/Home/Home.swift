@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Firebase
-
+ 
 struct Home: View {
 
 // View Properties
@@ -49,7 +49,7 @@ struct Home: View {
                 
                 NavigationStack{
                     VStack{
-//                        Post1()
+                        ContentView2()
                     }
                     .navigationTitle(Tab.favourite.title)
                 }

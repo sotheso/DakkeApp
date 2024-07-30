@@ -4,9 +4,9 @@
 //
 //  Created by Sothesom on 26/12/1402.
 //
-
+//
 import SwiftUI
-
+//
 enum TabDaste: String, CaseIterable{
     
     case siyasi = "person.and.background.dotted"

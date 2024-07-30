@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B2696D02C58D23D00EBC324 /* DataNudeJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2696CF2C58D23D00EBC324 /* DataNudeJS.swift */; };
+		9B2696D42C58ED8700EBC324 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2696D32C58ED8700EBC324 /* Api.swift */; };
 		9B426E732BA52D63001B0924 /* CoverFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B426E722BA52D63001B0924 /* CoverFlowView.swift */; };
 		9B4F34AF2C2A0B74000FEC8C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4F34AE2C2A0B74000FEC8C /* Profile.swift */; };
 		9B4F34B72C2A11E2000FEC8C /* MAnchorKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4F34B62C2A11E2000FEC8C /* MAnchorKey.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		9B2696CF2C58D23D00EBC324 /* DataNudeJS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataNudeJS.swift; sourceTree = "<group>"; };
+		9B2696D32C58ED8700EBC324 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		9B426E722BA52D63001B0924 /* CoverFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowView.swift; sourceTree = "<group>"; };
 		9B4F34AE2C2A0B74000FEC8C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		9B4F34B62C2A11E2000FEC8C /* MAnchorKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAnchorKey.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 		9BD5FBFC2BA2E38900F09E09 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9B2696D32C58ED8700EBC324 /* Api.swift */,
 				9BD5FBFF2BA2E4D400F09E09 /* Tab.swift */,
 				9B8E67522BA58FA800C91A75 /* TabDaste.swift */,
 				9B6100F72BA6109B00E2327D /* Card.swift */,
@@ -321,6 +324,7 @@
 				9B6100FA2BA6115200E2327D /* CardView.swift in Sources */,
 				9B8E67552BA5A2D400C91A75 /* View_Extensions.swift in Sources */,
 				9B6FAC592BAB8C280071F1CD /* FavouriteView.swift in Sources */,
+				9B2696D42C58ED8700EBC324 /* Api.swift in Sources */,
 				9B524E762BD9CC76003E3620 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
