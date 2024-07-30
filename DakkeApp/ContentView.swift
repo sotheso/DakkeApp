@@ -3,11 +3,12 @@
 //  DakkeApp
 //
 //  Created by Sothesom on 24/12/1402.
-// 
+//
 
 import SwiftUI
 import Firebase
-
+ 
+// test commit
 struct ContentView: View {
     @AppStorage("log_status") private var logStatus: Bool = false
 
