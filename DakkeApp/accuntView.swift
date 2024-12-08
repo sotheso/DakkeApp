@@ -13,8 +13,6 @@ struct accuntView: View {
             VStack{
                 imageView()
                 
-                
-                
                 GeometryReader { geo in
                     let minY = geo.frame(in: .global).minY
                     
